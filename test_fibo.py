@@ -13,7 +13,7 @@ def test_fib1():
 #Function to test "standard" behaviour
 def test_stand():
 	obs = fib(5)
-        exp = 5
+	exp = 5
         assert obs == exp
 
 def test_negative():

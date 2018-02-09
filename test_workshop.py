@@ -8,7 +8,7 @@ def test_ints():
 
 def test_double():
 	num_list = [1,2,3,4,5]
-        obs = mean(num_list)
+	obs = mean(num_list)
         exp = 3.
         assert obs == exp
 
