@@ -6,15 +6,15 @@ def test_fib0():
 	assert obs == exp
 # Create a function to test fib(1)
 def test_fib1():
-        obs = fib(1)
-        exp = 1
-        assert obs == exp
+	obs = fib(1)
+	exp = 1
+	assert obs == exp
 
 #Function to test "standard" behaviour
 def test_stand():
 	obs = fib(5)
 	exp = 5
-        assert obs == exp
+	assert obs == exp
 
 def test_negative():
 	obs = fib(-4)
